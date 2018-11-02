@@ -3,7 +3,7 @@
 
 http://mdecourse.github.io/2018fall/
 
-分組示範倉儲:https://mdecadp2018.github.io/site-40623129/content/index.html
+倉儲:https://mdecadp2018.github.io/site-40623129/content/index.html
 
 部落格:https://mdecadp2018.github.io/site-40623129/blog/index.html
 
