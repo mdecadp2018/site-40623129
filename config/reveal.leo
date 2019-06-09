@@ -40,7 +40,7 @@
 <v t="leo.20190609233357.2"><vh>w14</vh></v>
 </v>
 <v t="leo.20190610000309.1" a="E"><vh>W15</vh>
-<v t="leo.20190610000309.2"><vh>w15</vh></v>
+<v t="leo.20190610000309.2"><vh>W15</vh></v>
 </v>
 <v t="leo.20190610000329.1" a="E"><vh>W16</vh>
 <v t="leo.20190610000329.2"><vh>w16</vh></v>
@@ -416,7 +416,7 @@ onshape
 &lt;/section&gt;
 						
 </t>
-<t tx="leo.20190609232201.2">##Week13
+<t tx="leo.20190609232201.2">## Week13
 在onshape繪製手足球球檯和球員，再導入v-rep進行模擬
 
 &lt;img src="../images/懶覺.png"  width="400px"&gt;
@@ -431,7 +431,7 @@ onshape
 
 						
 </t>
-<t tx="leo.20190609233357.2">##Week14 
+<t tx="leo.20190609233357.2">## Week14
 手足球球檯繪製完成後，就進入模擬看零組件是否有干涉的問題，再回到onshape重新更改尺寸，再匯入至V-rep進行模擬。
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/3uIlp1c6oyI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
@@ -445,7 +445,7 @@ onshape
 
 						
 </t>
-<t tx="leo.20190610000309.2">##Week15 
+<t tx="leo.20190610000309.2">## Week15
 onshape組合及導入vrep後之基本設定
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/7K6pRQXxkJs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
