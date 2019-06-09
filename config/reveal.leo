@@ -24,7 +24,31 @@
 <v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181005103640.1" a="E"><vh>投影片</vh>
+<v t="leo.20190609231307.1" a="E"><vh>目錄</vh>
+<v t="leo.20190609231307.2"><vh>目錄</vh></v>
+</v>
+<v t="leo.20190610010503.1" a="E"><vh>W11</vh>
+<v t="leo.20190610010503.2"><vh>W11</vh></v>
+</v>
+<v t="leo.20190609231715.1" a="E"><vh>W12</vh>
+<v t="leo.20190609231715.2"><vh>W12</vh></v>
+</v>
+<v t="leo.20190609232201.1" a="E"><vh>W13-W14</vh>
+<v t="leo.20190609232201.2"><vh>w13-w14</vh></v>
+</v>
+<v t="leo.20190609233357.1" a="E"><vh>W14</vh>
+<v t="leo.20190609233357.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190610000309.1" a="E"><vh>W15</vh>
+<v t="leo.20190610000309.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190610000329.1" a="E"><vh>W16</vh>
+<v t="leo.20190610000329.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190610005456.1" a="E"><vh>自評</vh>
+<v t="leo.20190610005456.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181005103640.1"><vh>投影片</vh>
 <v t="leo.20181005103640.2"><vh>投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
@@ -344,6 +368,129 @@ make.start()
 10/5 操作測試
 
 
+
+</t>
+<t tx="leo.20190609231307.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609231307.2">手足球系統功能
+
+vrep模擬
+
+onshape
+
+倉儲推送紀錄
+
+在小組與班上的貢獻
+
+自評
+
+
+
+</t>
+<t tx="leo.20190609231715.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609231715.2">## Week 12
+與組員分配工作，幫忙組員v-rep模擬
+
+
+
+
+
+
+</t>
+<t tx="leo.20190609232201.1">
+						
+</t>
+<t tx="leo.20190609232201.2">##week13-14
+在onshape繪製手足球球檯和球員，再導入v-rep進行模擬
+
+&lt;img src="../images/懶覺.png"  width="400px"&gt;
+
+</t>
+<t tx="leo.20190609233357.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609233357.2">## 手足球球檯繪製完成後，就進入模擬看零組件是否有干涉的問題，再回到onshape重新更改尺寸，再匯入至V-rep進行模擬。
+
+</t>
+<t tx="leo.20190610000309.1">
+
+
+
+						
+</t>
+<t tx="leo.20190610000309.2">## onshape組合及導入vrep後之基本設定
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/7K6pRQXxkJs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+</t>
+<t tx="leo.20190610000329.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190610000329.2">## 零組件尺寸分析，分析手足球零件組裝起來有沒有干涉
+
+</t>
+<t tx="leo.20190610005456.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190610005456.2">學員出席(20%): 20分
+
+Github 倉儲管理(20%): 10分
+
+Onshape 協同操作(20%): 15分
+
+V-rep 模擬(20%): 10分
+
+程式開發(20%) : 6分
+
+總分: 61 分
+
+
+</t>
+<t tx="leo.20190610010503.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190610010503.2">## Week 11 
+為校爭光 出去比賽
 
 </t>
 </tnodes>
