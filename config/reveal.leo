@@ -433,7 +433,7 @@ onshape
 </t>
 <t tx="leo.20190609233357.2">## 手足球球檯繪製完成後，就進入模擬看零組件是否有干涉的問題，再回到onshape重新更改尺寸，再匯入至V-rep進行模擬。
 
-</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/3uIlp1c6oyI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20190610000309.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
