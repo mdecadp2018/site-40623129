@@ -412,7 +412,11 @@ onshape
 
 
 </t>
-<t tx="leo.20190609232201.1">
+<t tx="leo.20190609232201.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 						
 </t>
 <t tx="leo.20190609232201.2">##week13-14
@@ -433,7 +437,11 @@ onshape
 <t tx="leo.20190609233357.2">## 手足球球檯繪製完成後，就進入模擬看零組件是否有干涉的問題，再回到onshape重新更改尺寸，再匯入至V-rep進行模擬。
 
 </t>
-<t tx="leo.20190610000309.1">
+<t tx="leo.20190610000309.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 
 
 
