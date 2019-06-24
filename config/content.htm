@@ -21,7 +21,8 @@
 <h2>onshape</h2>
 <p><a href="https://cad.onshape.com/documents/0c00dcce4e420991f61b4179/w/580e8f1f642d88e3e5d4a620/e/adde0507163cfd3d6958f173">football</a></p>
 <h2>期中個人影片</h2>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ieCXEfMXd40" width="560"></iframe></p><h1>site-40623129</h1>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ieCXEfMXd40" width="560"></iframe></p>
+<h1>site-40623129</h1>
 <h2>簡介</h2>
 <p>2018 Fall 計算機程式與電腦輔助設計實習課程分組網站</p>
 <p>設計二甲                  40623129                  陳威誠</p>
@@ -77,4 +78,65 @@
 <h4><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E/toggle"><strong>toggle</strong></a></h4>
 <h4><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E/boolean"><strong>boolean</strong></a></h4>
 <h4><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E/repetitive"><strong>repetitive</strong></a></h4>
-<p></p>
+<h1>期末彈珠檯</h1>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/nO7rNxEN8vU" width="560"></iframe></p>
+<p>OnShape</p>
+<p><a href="https://cad.onshape.com/documents/89f4b4cb14ab5c916682af8e/w/14a82f44318f4b0675ac6722/e/0f14434a399203d3de6c402b">https://cad.onshape.com/documents/89f4b4cb14ab5c916682af8e/w/14a82f44318f4</a><a href="https://cad.onshape.com/documents/89f4b4cb14ab5c916682af8e/w/14a82f44318f4b0675ac6722/e/0f14434a399203d3de6c402b">b0675ac6722/e/0f14434a399203d3de6c402b</a></p>
+<p>程式碼</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">import vrep
+import keyboard
+import time
+import sys, math     
+# child threaded script: 
+# 內建使用 port 19997 若要加入其他 port, 在  serve 端程式納入
+#simExtRemoteApiStart(19999)
+   
+vrep.simxFinish(-1)
+ 
+ 
+clientID = vrep.simxStart('127.0.0.1', 19997, True, True, 5000, 5)
+KickBallV = 2000
+Move_Minus =-0.1       
+Move_Plus =0.1
+n=1
+R_KickBallVel = -(math.pi/180)*KickBallV
+B_KickBallVel = (math.pi/180)*KickBallV
+if clientID!= -1:
+    print("Connected to remote server")
+else:
+    print('Connection not successful')
+    sys.exit('Could not connect')
+     
+errorCode,Sphere_handle=vrep.simxGetObjectHandle(clientID,'Sphere',vrep.simx_opmode_oneshot_wait)
+errorCode,P1_handle=vrep.simxGetObjectHandle(clientID,'P1',vrep.simx_opmode_oneshot_wait)
+errorCode,R1_handle=vrep.simxGetObjectHandle(clientID,'R1',vrep.simx_opmode_oneshot_wait)
+errorCode,R2_handle=vrep.simxGetObjectHandle(clientID,'R2',vrep.simx_opmode_oneshot_wait)
+ 
+ 
+vrep.simxSetJointTargetVelocity(clientID,P1_handle,0,vrep.simx_opmode_oneshot_wait)
+vrep.simxSetJointTargetVelocity(clientID,R1_handle,0,vrep.simx_opmode_oneshot_wait)
+vrep.simxSetJointTargetVelocity(clientID,R2_handle,0,vrep.simx_opmode_oneshot_wait)
+ 
+def speed(handle,speed):
+    errorCode = vrep.simxSetJointTargetVelocity(clientID,handle,speed,vrep.simx_opmode_oneshot_wait)
+ 
+vrep.simxStartSimulation(clientID,vrep.simx_opmode_oneshot_wait)
+while True:
+    try:
+            if keyboard.is_pressed('5'): 
+                speed(R1_handle,B_KickBallVel)
+            else:
+                speed(R1_handle,R_KickBallVel)
+            if keyboard.is_pressed('a'):  
+                speed(P1_handle,500)
+            else: 
+                speed(P1_handle,-aaaaaa500)
+ 
+            if keyboard.is_pressed('s'):  
+                speed(R2_handle,R_KickBallVel)
+            else:
+                speed(R2_handle,B_KickBallVel)
+ 
+    except:
+            break</pre>
+<p><br/><br/></p>
